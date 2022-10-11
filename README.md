@@ -27,8 +27,8 @@ int main()
   }
 }
 ```
+#
 ```C
-#輾轉相除法
 #include <stdio.h>
 int main()
 {
