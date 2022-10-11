@@ -1,4 +1,4 @@
-##2022-10-11 
+## 2022-10-11 
 ```c
 #include <stdio.h>
 int main()
