@@ -46,6 +46,7 @@ int main()
 }
 
 ```
+##2022 10/18
 #比較 int 整數 及 long long int
 ```c
 #include <stdio.h>
