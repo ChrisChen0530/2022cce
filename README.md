@@ -133,3 +133,67 @@ int main()
 
 }
 ```
+#質數判別
+```c
+#include <stdio.h>
+int main()
+{
+   int n;
+   scanf("%d",&n);
+   int bad=0;
+   for(int i=2;i<n;i++){
+    if(n%1==0)bad=1;
+
+    }
+    if(bad==0)printf("%d 是質數",n);
+    else printf("%d 不好 不是質數",n);
+}
+```
+#迴圈(增加sum))
+```c
+#include <stdio.h>
+int main()
+{
+    printf("請輸入五個數字(要加起來):");
+    int n;
+    int sum=0;
+    for(int i=0;i<5;i++){
+            scanf("%d",&n);
+            sum+=n;
+    }
+    printf("總和是:%d",sum);
+}
+```
+#while迴圈
+```c 
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+
+        for(int k=1;k<=n-i;k++)printf(" ");
+        for(int k=1;k<=i;k++)printf("*");
+        printf("\n");
+    }
+}
+```
+#右方直角三角形
+```c 
+#include <stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++){
+
+        for(int k=1;k<=n;k++){
+            if(k<=n-i)printf(" ");
+            else printf("*");
+    }
+    printf("\n");
+}
+
+}
+
